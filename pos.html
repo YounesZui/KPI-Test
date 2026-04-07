@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POS Dashboard · Zuitable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="top-bar">Marketing Performance · POS Dashboard</div>
+
+<header class="page-header">
+  <div class="header-left">
+    <div class="agency-label">Point of Sale</div>
+    <h1>POS <span>Dashboard</span></h1>
+  </div>
+  <div class="header-right">
+    <div id="last-updated" class="last-updated">–</div>
+  </div>
+</header>
+
+<!-- Navigation -->
+<div class="page-nav-bar">
+  <div class="page-nav-inner">
+    <a href="index.html" class="page-nav-btn">Online Shop</a>
+    <a href="pos.html"   class="page-nav-btn active">POS</a>
+  </div>
+</div>
+
+<div class="wrapper">
+
+  <!-- Summary Cards -->
+  <div class="pos-summary" id="pos-summary"></div>
+
+  <!-- Main Chart: YoY Comparison -->
+  <div class="section-title">
+    <span class="section-icon">▲</span> Monatsumsatz – Jahresvergleich
+  </div>
+  <div class="pos-chart-card">
+    <div class="pos-chart-legend" id="pos-legend"></div>
+    <div class="pos-chart-area" id="pos-chart"></div>
+  </div>
+
+  <!-- Table -->
+  <div class="section-title" style="margin-top:2.5rem;">
+    <span class="section-icon">▲</span> Monatsumsätze im Detail
+  </div>
+  <div class="history-card">
+    <div class="history-scroll">
+      <table id="pos-table"></table>
+    </div>
+  </div>
+
+</div>
+
+<script src="pos-data.js"></script>
+<script src="pos-app.js"></script>
+</body>
+</html>

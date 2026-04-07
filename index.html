@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marketing KPI Dashboard · Zuitable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="top-bar">Marketing Performance · KPI Dashboard</div>
+
+<header class="page-header">
+  <div class="header-left">
+    <div class="agency-label">Marketing Agentur</div>
+    <h1>KPI <span>Dashboard</span></h1>
+  </div>
+  <div class="header-right">
+    <div id="last-updated" class="last-updated">–</div>
+  </div>
+</header>
+
+<!-- Navigation -->
+<div class="page-nav-bar">
+  <div class="page-nav-inner">
+    <a href="index.html" class="page-nav-btn active">Online Shop</a>
+    <a href="pos.html"   class="page-nav-btn">POS</a>
+  </div>
+</div>
+
+<div class="wrapper">
+
+  <!-- Year Tabs + Compare Button -->
+  <div class="toolbar">
+    <div class="year-tabs" id="year-tabs"></div>
+    <button class="compare-btn" id="compare-btn" onclick="toggleCompare()" style="display:none;">
+      ⇄ Vorjahresvergleich
+    </button>
+  </div>
+
+  <!-- Period Tabs -->
+  <div class="period-tabs" id="period-tabs"></div>
+
+  <!-- Main Content -->
+  <div id="main-content">
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <div class="section-title">
+      <span class="section-icon">▲</span> KPI-Verlauf
+    </div>
+    <div class="charts-grid" id="charts-grid"></div>
+
+    <div class="section-title">
+      <span class="section-icon">▲</span> Alle Perioden
+      <div class="table-year-filter" id="table-year-filter"></div>
+    </div>
+    <div class="history-card">
+      <div class="history-scroll">
+        <table>
+          <thead id="table-head"></thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
