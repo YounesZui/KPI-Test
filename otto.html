@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>POS Dashboard · Zuitable</title>
+  <title>Otto Dashboard · Zuitable</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -11,12 +11,12 @@
 </head>
 <body>
 
-<div class="top-bar">Marketing Performance · POS Dashboard</div>
+<div class="top-bar">Marketing Performance · Otto Dashboard</div>
 
 <header class="page-header">
   <div class="header-left">
-    <div class="agency-label">Point of Sale</div>
-    <h1>POS <span>Dashboard</span></h1>
+    <div class="agency-label">Otto Marketplace</div>
+    <h1>Otto <span>Dashboard</span></h1>
   </div>
   <div class="header-right">
     <div id="last-updated" class="last-updated">–</div>
@@ -26,8 +26,8 @@
 <div class="page-nav-bar">
   <div class="page-nav-inner">
     <a href="index.html" class="page-nav-btn">Online Shop</a>
-    <a href="pos.html"   class="page-nav-btn active">POS</a>
-    <a href="otto.html"  class="page-nav-btn">Otto</a>
+    <a href="pos.html"   class="page-nav-btn">POS</a>
+    <a href="otto.html"  class="page-nav-btn active">Otto</a>
   </div>
 </div>
 
@@ -45,11 +45,11 @@
 </div>
 
 <!-- Reihenfolge wichtig: erst Daten, dann Kanal-Config, dann Logik -->
-<script src="pos-data.js"></script>
+<script src="otto-data.js"></script>
 <script>
-  var CHANNEL_DATA  = POS_DATA;
-  var CHANNEL_LABEL = "POS";
-  var CHANNEL_ICON  = "🏪";
+  var CHANNEL_DATA  = OTTO_DATA;
+  var CHANNEL_LABEL = "Otto";
+  var CHANNEL_ICON  = "📦";
 </script>
 <script src="pos-app.js"></script>
 

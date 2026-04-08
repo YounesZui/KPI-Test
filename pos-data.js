@@ -28,3 +28,8 @@ const POS_DATA = {
   ]
 
 };
+
+// Kanal-Konfiguration für pos-app.js
+const CHANNEL_DATA  = POS_DATA;
+const CHANNEL_LABEL = "POS";
+const CHANNEL_ICON  = "🏪";
