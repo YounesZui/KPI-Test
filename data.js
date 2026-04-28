@@ -233,6 +233,21 @@ const KPI_DATA = {
         checkout_abandon: 43.0,
         returning:        23.7
       }
+    },
+    {
+      period: "2026-04-01",
+      label: "Apr 26",
+      kpis: {
+        traffic:          10115,
+        conversion_rate:  1.29,
+        social_cr:        0,
+        revenue:          47776.80,
+        rps:              null,
+        aov:              293.05,
+        cart_abandon:     43.23,
+        checkout_abandon: 43.23,
+        returning:        9.5
+      }
     }
   ]
 
