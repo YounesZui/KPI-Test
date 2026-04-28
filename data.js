@@ -241,7 +241,7 @@ const KPI_DATA = {
         traffic:          10115,
         conversion_rate:  1.29,
         social_cr:        0,
-        revenue:          47776.80,
+        revenue:          49998.88,
         rps:              null,
         aov:              293.05,
         cart_abandon:     43.23,
