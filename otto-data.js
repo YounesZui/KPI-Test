@@ -25,7 +25,7 @@ const OTTO_DATA = {
     { period: "2026-01-01", label: "Jan 26", revenue: 0       },
     { period: "2026-02-01", label: "Feb 26", revenue: 0       },
     { period: "2026-03-01", label: "Mär 26", revenue: 3152.86 },
-    { period: "2026-04-01", label: "Apr 26", revenue: 579.20  }
+    { period: "2026-04-01", label: "Apr 26", revenue: 3152.86  }
   ]
 
 };
