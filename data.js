@@ -249,7 +249,7 @@ const KPI_DATA = {
         returning:        23.56
       }
     },
-      {
+    {
       period: "2026-05-01",
       label: "Mai 26",
       kpis: {
