@@ -256,14 +256,14 @@ const KPI_DATA = {
         traffic:          21055,
         conversion_rate:  0.81,
         social_cr:        0,
-        revenue:          62079,2,
+        revenue:          62079.2,   // Korrigiert: Punkt statt Komma
         rps:              null,
         aov:              287.02,
         cart_abandon:     44.1,
         checkout_abandon: 44.08,
-        returning:        29,99
+        returning:        29.99      // Korrigiert: Punkt statt Komma
       }
-    },
+    }
   ]
 
 };
@@ -343,3 +343,4 @@ const KPI_META = {
     description: "Anteil wiederkehrender Kunden"
   }
 };
+
