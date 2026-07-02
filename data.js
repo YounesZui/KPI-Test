@@ -263,6 +263,21 @@ const KPI_DATA = {
         checkout_abandon: 44.08,
         returning:        29.99      // Korrigiert: Punkt statt Komma
       }
+    },
+    {
+      period: "2026-06-01",
+      label: "Juni 26",
+      kpis: {
+        traffic:          15424,
+        conversion_rate:  0.82,
+        social_cr:        0,
+        revenue:          24121.40,   // Korrigiert: Punkt statt Komma
+        rps:              null,
+        aov:              330,01,
+        cart_abandon:     43,
+        checkout_abandon: 32.01,
+        returning:        72      // Korrigiert: Punkt statt Komma
+      }
     }
   ]
 
