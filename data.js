@@ -273,7 +273,7 @@ const KPI_DATA = {
         social_cr:        0,
         revenue:          24121.40,   // Korrigiert: Punkt statt Komma
         rps:              null,
-        aov:              330,01,
+        aov:              330.01,
         cart_abandon:     43.00,
         checkout_abandon: 32.01,
         returning:        72.00     // Korrigiert: Punkt statt Komma
