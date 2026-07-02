@@ -26,6 +26,7 @@ const POS_DATA = {
     { period: "2026-03-01", label: "Mär 26", revenue: 22871.66 },
     { period: "2026-04-01", label: "Apr 26", revenue: 30516.71 },
     { period: "2026-05-01", label: "Mai 26", revenue: 7144.96 },
+    { period: "2026-06-01", label: "Juni 26", revenue: 19808 },
   ]
 
 };
