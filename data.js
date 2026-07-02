@@ -278,7 +278,7 @@ const KPI_DATA = {
         checkout_abandon: 32.01,
         returning:        72.00     // Korrigiert: Punkt statt Komma
       }
-    },
+    }
   ]
 
 };
